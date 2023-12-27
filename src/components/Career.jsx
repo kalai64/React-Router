@@ -9,9 +9,9 @@ let car = lists.filter(item=>item.head === "Career")
   <div className="row row-cols-1 row-cols-md-3 g-4 mt-5 mx-3 mb-5">
 
 {
-  car.map((carData,i)=>{
+  car.map((cardData,i)=>{
 
-    return <Card carData={carData} key={i}/>
+    return <Card cardData={cardData} key={i}/>
 
   })
 }
